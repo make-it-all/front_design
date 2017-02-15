@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/assets/javascripts/application.js"></script>
+    <script src="/assets/javascripts/chosen.js"></script>
+
+    </script>
+  </head>
+  <body>
+    <div id="title_bar">
+
+      <div id="logo_container">
+        <img src="http://make-it-all-demo.herokuapp.com/assets/images/logo.jpg" data-url="as"/>
+      </div>
+
+      <div id="user">
+         <p style="color:white">Signed in as <b>Alice Help</b> - <a href="#">Log out</a></p>
+      </div>
+    </div>
+    <div id="main_wrapper">
+      <div id="side_bar">
+        <a href="#">Dashboard</a>
+      <hr>
+      <section id="">
+        <h4>CALLS</h4>
+        <a href="#">All</a><br/>
+        <a href="#">New</a><br/>
+      </section>
+      <hr>
+      <section>
+        <h4>PROBLEMS</h4>
+        <a href="#">All</a><br/>
+        <a href="#">New</a><br/>
+        <a href="#">Completed</a><br/>
+        <a href="#">Outstanding</a><br/>
+      </section>
+      <hr>
+      <section>
+        <h4>PERSONNEL</h4>
+        <a href="#">All</a><br/>
+        <a href="#">Operators</a><br/>
+        <a href="#">Specialists</a><br/>
+        <a href="#">Admins</a><br/>
+      </section>
+      <hr>
+      <section>
+        <h4>REPORTS</h4>
+        <a href="#">Generate</a><br/>
+        <a href="#">View Archived</a><br/>
+      </section>
+      <hr>
+      <section>
+        <a href="#">Settings</a><br/>
+      </section>
+
+
+    </div>
+    <div id="page">
+           <div id="page_inner">
+       <div id="page_head">
+                     <div id="page_info">
+             <h1>New Problem</h1>
+<div class="page_actions">
+   <a href="#" class="myButton">Search</a>
+</div>
+           </div>
+                           </div>
+
+<div id="page_content">
+
+ <form action="/problems?flash=Problem+Created" method="POST" class="with_panels">
+
+   <div id="main_form_panel">
+
+
+
+
+     <div class="field">
+       <label>Problem ID</label>
+       <input type="text" name="name" value=""/>
+     </div>
+     <div class="field">
+       <label>Call Time</label>
+       <input type="text" name="name" value=""/>
+     </div>
+     <div class="field">
+       <label>Software</label>
+       <input type="text" name="name" value="Windows 8"/>
+     </div>
+     <div class="field">
+       <label>Hardware</label>
+       <input type="text" name="name" value="Printer"/>
+     </div>
+     <div class="actions">
+        <a href="#" class="myButton">Create Problem</a>
+     </div>
+   </div>
