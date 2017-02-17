@@ -272,7 +272,7 @@ p {
 
 #pagination{
   display: flex;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 #pagination_links{
@@ -300,6 +300,8 @@ p {
 #pagination_results{
   float: right;
   margin-right: 15px;
+  display:inline-table;
+  padding-bottom: 10pt;
 }
 
 table.index_table{
@@ -402,7 +404,19 @@ tbody:hover tr:hover td {
   margin-left: 30px;
   margin-top: 15px;
 }
+.myButton{
+  border-radius: 5px;
+  background-color: #f2b800;
+  padding: 10px;
+  width: 85px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
 
+  margin-left: 30px;
+  margin-top: 15px;
+}
 
 #cancel_button a{
   color: white;
