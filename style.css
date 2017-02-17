@@ -156,6 +156,7 @@ p {
 #page_head{
   display: flex;
   padding: 15px 30px;
+
 }
 
 #page_body{
@@ -272,10 +273,13 @@ p {
 
 #pagination{
   display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 
 }
 
 #pagination_links{
+  padding-top: 15px;
+  padding-bottom: 10pt;
   flex-grow: 1;
 }
 
@@ -301,7 +305,9 @@ p {
   float: right;
   margin-right: 15px;
   display:inline-table;
+  padding-top: 10pt;
   padding-bottom: 10pt;
+
 }
 
 table.index_table{
